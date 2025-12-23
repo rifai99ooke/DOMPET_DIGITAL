@@ -75,6 +75,7 @@ public class Main {
                     System.out.println("Masukkan PIN: ");
                     String pinBayar = scanner.nextLine();
                     dompet.bayar(merchant, jumlahbayar, pinBayar);
+break;
                 case 6:
                     dompet.lihatRiwayat();
                     break;
